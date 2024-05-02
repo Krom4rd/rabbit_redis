@@ -1,0 +1,21 @@
+log - krom4rd
+pass - y6ewq28nOouNO4ex
+conn - mongosh "mongodb+srv://web08hw.kimcbwv.mongodb.net/" --apiVersion 1 --username krom4rd --password y6ewq28nOouNO4ex
+conn py - mongodb+srv://krom4rd:<password>@web08hw.kimcbwv.mongodb.net/?retryWrites=true&w=majority&appName=web08hw
+
+
+mongodb+srv://krom4rd:t6abZEUNgL1uhHVu@oleg.qq4u8pu.mongodb.net/?retryWrites=true&w=majority&appName=Oleg
+mongodb+srv://krom4rd:<password>@oleg.qq4u8pu.mongodb.net/
+mongosh "mongodb+srv://oleg.qq4u8pu.mongodb.net/" --apiVersion 1 --username krom4rd --password t6abZEUNgL1uhHVus
+
+resurses:
+
+    cloud.mongodb.com
+
+pip installs:
+
+    pymongo
+
+    mongoengine
+
+

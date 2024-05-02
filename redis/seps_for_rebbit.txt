@@ -1,0 +1,11 @@
+cmd commands:
+    docker pull rabbitmq
+
+    docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.11-management - create container in docker
+
+pip install list:
+
+    pika
+
+docker terminal commands:
+    rabbitmqctl list_queues

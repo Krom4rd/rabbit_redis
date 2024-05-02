@@ -1,0 +1,13 @@
+cmd_comands:
+
+    docker pull redis
+
+    docker run --name some-nonosql -p 6379:6379 -e POSTGRES_PASSWORD=password -d redis
+
+pip install:
+
+    redis
+
+docker_comands:
+    redit-cli - connect to redis terminal
+    GET "key" - return value
